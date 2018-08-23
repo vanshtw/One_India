@@ -1,5 +1,5 @@
 <?php
-$servername="localhost";
+$servername="localhost";                //TO SAVE THE DETAILS ENTERED BY THE USER IN THE DATABASE, FINAL_RECORD TABLE HAS BEEN CREATED HERE
 $username="root";
 $password="";
 $dbname="booking_db";
