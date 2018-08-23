@@ -73,12 +73,12 @@
 
 <?php
 
- $from_value=$_POST['from_input'];
+ $from_value=$_POST['from_input'];           //USER ENTERED CHOICES STORED IN PHP VARIABLES + SAME SOURCE AND DEPARTURE CITY WILL GIVE AN ERROR
  $to_value=$_POST['to_input'];
  $date_value=$_POST['date_input'];
  $passengers_value=$_POST['total_passengers'];
 
- if($from_value==$to_value){?>
+ if($from_value==$to_value){?>                  
  	<div class="info"> Departure City cannot be same as Source City. Please fill again carefully!</div>
  
  </br>
